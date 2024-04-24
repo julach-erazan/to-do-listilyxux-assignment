@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 70%;
+  height: 50px;
+  padding: 8px;
+}
+
+input[type="text"] {
+  outline: none;
+}
+
+button {
+  height: 50px;
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.todo-item {
+  margin-bottom: 8px;
+}
+
+.todo-item.completed {
+  text-decoration: line-through;
+}
